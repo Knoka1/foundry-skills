@@ -35,7 +35,7 @@ Every skill should do something meaningfully better than asking Claude without a
 
 ## Version control & manifest
 
-This project is a GitHub repo. Every change that adds or updates a skill must also update `manifest.json` at the project root — this file is the source of truth for versioning.
+This project is a GitHub repo. Every change that adds or updates a skill must also update `manifest.json` at the project root — this file is the source of truth for versioning. The first time a skill is created it should start on 0.5.0 version.
 
 **manifest.json structure:**
 ```json
