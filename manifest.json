@@ -1,0 +1,6 @@
+{
+     "email-writer": { "id": "email-writer", "version": "0.5.0" },
+     "finance-review": { "id": "finance-review","version": "0.5.0" },
+     "meeting-prep": { "id": "meeting-prep","version": "0.5.0" }
+
+}
