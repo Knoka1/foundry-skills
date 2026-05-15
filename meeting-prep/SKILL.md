@@ -1,7 +1,7 @@
 ---
 name: meeting-prep
 description: >
-  Complete meeting lifecycle skill — preparation before and follow-up after any professional or personal meeting. Use this skill whenever the user mentions an upcoming meeting, wants to prepare for a meeting, needs an agenda, wants to brief themselves before talking to someone, needs to write up meeting notes, wants to send a follow-up email after a meeting, needs to capture action items, or says anything like "I have a meeting with...", "I just got out of a meeting", "help me prepare for...", "can you write up what we covered", "I need to follow up on...", or "what should I ask in this meeting." Both modes are covered: PRE-meeting preparation and POST-meeting follow-up. Trigger proactively even when the user doesn't use the word "meeting" — if they describe a situation where they're about to talk to someone important, or just finished such a conversation and need to capture it, this skill applies.
+  Complete meeting lifecycle skill — preparation before and follow-up after any professional or personal meeting. Use this skill whenever the user mentions an upcoming meeting, wants to prepare for a meeting, needs an agenda, wants to brief themselves before talking to someone, needs to write up meeting notes, wants to send a follow-up email after a meeting, needs to capture action items, or says anything like "I have a meeting with...", "I just got out of a meeting", "help me prepare for...", "can you write up what we covered", "I need to follow up on...", or "what should I ask in this meeting." Also trigger for specific meeting types: job interviews, performance reviews, 1:1s with a manager, sales or client calls, and difficult conversations. Both modes are covered: PRE-meeting preparation and POST-meeting follow-up. Trigger proactively even when the user doesn't use the word "meeting" — if they describe a situation where they're about to talk to someone important, or just finished such a conversation and need to capture it, this skill applies.
 ---
 
 # Meeting Prep & Follow-up
@@ -28,16 +28,22 @@ Read `references/pre-meeting.md` for the full framework.
 4. How long is the meeting?
 5. Any context — prior conversations, documents, history?
 
-**Meeting types and their primary goal:**
-- **1:1 with manager**: Alignment, feedback, career, priorities
-- **Client / customer call**: Trust-building, discovery, moving a deal or project forward
-- **Job interview**: Demonstrating fit, learning about the role, assessing them too
+**Meeting types — read the dedicated reference file when applicable:**
+
+| Meeting type | Reference file | When it applies |
+|-------------|---------------|----------------|
+| **Job interview** | `references/job-interview.md` | Any interview — first round, panel, final, or informational |
+| **Performance review** | `references/performance-review.md` | Annual or mid-year reviews, presenting your work, compensation conversations |
+| **Sales / client meeting** | `references/sales-client.md` | New business calls, demos, pitches, client check-ins, renewals |
+| **1:1 with manager** | `references/one-on-one.md` | Regular 1:1s — as a direct report or as a manager |
+| **Difficult conversation** | `references/difficult-conversation.md` | Feedback, conflict, bad news, setting limits, ending something |
+
+For meeting types without a dedicated reference file, use the general PRE-meeting framework from `references/pre-meeting.md`:
 - **Team / project sync**: Status, unblocking, decisions
-- **Negotiation**: See email-writer skill for the strategic layer; meeting prep focuses on positioning and questions
-- **Difficult conversation**: Clarity, resolution, mutual understanding
+- **Negotiation**: Positioning and questions (see email-writer for strategic layer)
 - **Networking / informational**: Learning, relationship, opening doors
 - **Board / leadership presentation**: Persuasion, credibility, decision approval
-- **Personal meeting** (family, doctor, lawyer, contractor): Goal-specific prep
+- **Personal meeting** (doctor, lawyer, contractor): Goal-specific prep
 
 **Outputs to produce:**
 1. A tight **meeting brief** (why this meeting matters, what a good outcome looks like)
