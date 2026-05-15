@@ -40,16 +40,16 @@ This project is a GitHub repo. Every change that adds or updates a skill must al
 **manifest.json structure:**
 ```json
 {
-  "email-writer": { "id": "email-writer", "version": "1.0.0" },
-  "meeting-prep": { "id": "meeting-prep", "version": "1.0.0" },
-  "finance-review": { "id": "finance-review", "version": "1.0.0" }
+  "email-writer": { "id": "email-writer", "version": "1.0.0", "size": "23 KB", "updated": "May 2026" },
+  "meeting-prep": { "id": "meeting-prep", "version": "1.0.0", "size": "11 KB", "updated": "May 2026" },
+  "finance-review": { "id": "finance-review", "version": "1.0.0", "size": "10 KB", "updated": "May 2026" }
 }
 ```
 
 **Rules:**
 - The key and `id` must both match the skill's folder name exactly (kebab-case, e.g. `email-writer`)
 - When a new skill is created, add a new entry to the manifest
-- When an existing skill is meaningfully updated, bump that skill's `version`
+- When an existing skill is meaningfully updated, bump that skill's `version`, update `size` if the package size changed, and update `updated` to the current month and year
 - Use semantic versioning: `major.minor.patch` — new skill starts at `1.0.0`, fix/tweak = patch bump, meaningful update = minor bump, breaking restructure = major bump
 - Never update a skill without updating `manifest.json` in the same change
 
