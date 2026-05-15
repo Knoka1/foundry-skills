@@ -1,5 +1,5 @@
 {
-  "email-writer": { "id": "email-writer", "version": "0.5.0", "size": "23 KB", "updated": "May 2026" },
+  "email-writer": { "id": "email-writer", "version": "1.0.0", "size": "44 KB", "updated": "May 2026" },
   "meeting-prep": { "id": "meeting-prep", "version": "0.5.0", "size": "11 KB", "updated": "May 2026" },
   "finance-review": { "id": "finance-review", "version": "0.5.0", "size": "10 KB", "updated": "May 2026" }
 }

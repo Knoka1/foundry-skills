@@ -1,7 +1,7 @@
 ---
 name: email-writer
 description: >
-  Expert email writing skill for professionals and individuals. Use this skill whenever the user wants to write, draft, improve, or get help with ANY email — including cold outreach, follow-ups, complaints, negotiations, thank-you notes, difficult conversations, reconnection emails, or any other professional or personal email. Also trigger for: "help me write an email", "draft an email", "how should I phrase this email", "I need to reach out to someone", "I need to follow up", "I want to send a thank you", "I have a complaint to write", "I'm negotiating and need to send an email", or any situation where someone needs to communicate via email. Do NOT limit this to obvious requests — if the user describes a situation where an email would be the right output, use this skill proactively.
+  Expert email writing skill for professionals and individuals. Use this skill whenever the user wants to write, draft, improve, or get help with ANY email — including cold outreach, follow-ups, complaints, negotiations, thank-you notes, difficult conversations, reconnection emails, or any other professional or personal email. Also trigger for email marketing requests: promotional offers, newsletters, welcome emails, re-engagement campaigns, or curiosity-driven clickbait-style emails. Trigger for: "help me write an email", "draft an email", "how should I phrase this email", "I need to reach out to someone", "I need to follow up", "I want to send a thank you", "I have a complaint to write", "I'm negotiating and need to send an email", "write a newsletter", "create a welcome email", "write a promotional email", "re-engage my subscribers", or any situation where someone needs to communicate via email. Do NOT limit this to obvious requests — if the user describes a situation where an email would be the right output, use this skill proactively.
 ---
 
 # Email Writer
@@ -22,6 +22,14 @@ Before writing anything, determine which category this email falls into. If it's
 | **Reconnection** | Re-establishing contact with someone after a gap of months or years |
 | **Difficult conversation** | Delivering bad news, setting boundaries, ending a relationship, declining something, or addressing conflict |
 | **Persuasion / Pitch** | Convincing someone of something — a proposal, an idea, a request for resources |
+| **Promotional** | Announcing an offer, sale, discount, or limited-time deal to a list or audience |
+| **Newsletter** | Regular informational sends to subscribers — value-first, no hard pitch |
+| **Welcome** | First email after someone joins a list, buys, or signs up — highest open rates, highest stakes |
+| **Re-engagement** | Reaching out to lapsed subscribers or customers who have gone cold |
+| **Curiosity / Clickbait** | Curiosity-gap subject lines that open a loop the reader must open to close |
+| **Abandoned cart** | Recovering shoppers who added items but didn't complete a purchase |
+| **Event invitation** | Inviting someone to a webinar, workshop, launch, or in-person event |
+| **Feedback / Survey** | Requesting a review, rating, NPS score, or survey response after an experience |
 
 ## Step 2: Extract the essential context
 
@@ -49,6 +57,14 @@ Each type has a dedicated reference file with the strategic framework, structura
 | Reconnection | `references/reconnection.md` |
 | Difficult conversation | `references/difficult-conversation.md` |
 | Persuasion / Pitch | `references/persuasion.md` |
+| Promotional | `references/promotional.md` |
+| Newsletter | `references/newsletter.md` |
+| Welcome | `references/welcome.md` |
+| Re-engagement | `references/re-engagement.md` |
+| Curiosity / Clickbait | `references/clickbait.md` |
+| Abandoned cart | `references/abandoned-cart.md` |
+| Event invitation | `references/event-invitation.md` |
+| Feedback / Survey | `references/feedback-survey.md` |
 
 ## Step 4: Write the email
 
