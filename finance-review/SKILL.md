@@ -1,7 +1,7 @@
 ---
 name: finance-review
 description: >
-  Personal finance review skill for individuals who want to understand their spending, budgets, and financial patterns. Use whenever the user wants to analyze expenses, categorize spending, review a budget, understand where their money goes, or make sense of financial data they paste in or describe. Triggers: "help me review my spending", "here are my expenses", "can you look at my budget", "I want to understand where my money goes", "categorize these transactions", "help me make a budget", "analyze my finances", or any time the user shares financial data (even raw or messy) and wants insight. Does NOT provide investment, tax, or financial planning advice — helps users understand their own data. Trigger proactively when the user pastes transactions, expenses, or any money-related data, even without an explicit request for analysis.
+  Personal finance review skill for individuals who want to understand their spending, budgets, and financial patterns. Use whenever the user wants to analyze expenses, categorize spending, review a budget, build a budget from scratch, analyze debt, audit subscriptions, understand their savings rate, or track progress toward a financial goal. Triggers: "help me review my spending", "here are my expenses", "can you look at my budget", "help me build a budget", "I want to understand where my money goes", "categorize these transactions", "help me pay off my debt", "audit my subscriptions", "am I saving enough", "am I on track for my goal", "analyze my finances", or any time the user shares financial data (even raw or messy) and wants insight. Does NOT provide investment, tax, or financial planning advice — helps users understand their own data. Trigger proactively when the user pastes transactions, expenses, or any money-related data, even without an explicit request for analysis.
 ---
 
 # Personal Finance Review
@@ -20,10 +20,23 @@ Before analyzing, clarify:
 
 If the user just pastes data without context, begin extracting and analyzing — you can ask clarifying questions alongside presenting your initial read. Don't wait for perfect information.
 
-## Step 2: Read the reference files
+## Step 2: Identify the analysis type and read the right reference files
 
-- For handling and normalizing input data: read `references/data-handling.md`
-- For categorization standards and output formats: read `references/categorization.md`
+**Core references (always read for transaction/spending analysis):**
+- For handling and normalizing input data: `references/data-handling.md`
+- For categorization standards and output formats: `references/categorization.md`
+
+**Specialized references (read when the user's request matches):**
+
+| What the user wants | Reference file |
+|--------------------|---------------|
+| Build a budget from scratch / plan where money should go | `references/budget-building.md` |
+| Understand and pay down debt / debt payoff strategy | `references/debt-analysis.md` |
+| Find and cut recurring charges / subscription review | `references/subscription-audit.md` |
+| Understand savings rate / am I saving enough | `references/savings-rate.md` |
+| Track progress toward a specific financial goal | `references/goal-tracking.md` |
+
+If the request spans multiple types (e.g., "help me build a budget and figure out my debt"), read all relevant references before proceeding.
 
 ## Step 3: Process the data
 
@@ -98,8 +111,8 @@ Financial data is sensitive. Handle it accordingly:
 
 - Investment advice (what stocks to buy, whether to invest in X)
 - Tax advice (what's deductible, how to file)
-- Debt elimination strategy (which debt to pay off first — that's financial planning)
-- Predictions about future finances
+- Specific product recommendations (which bank, which credit card, which broker)
+- Predictions about future finances based on market returns
 - Credit score guidance
 
 If the user asks for these, acknowledge their question, briefly explain why you won't advise on those specifically, and offer to focus on what you can help with (understanding their current spending picture).
