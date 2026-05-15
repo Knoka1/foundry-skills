@@ -1,5 +1,9 @@
 {
   "email-writer": { "id": "email-writer", "version": "1.0.0", "size": "44 KB", "updated": "May 2026" },
   "meeting-prep": { "id": "meeting-prep", "version": "1.0.0", "size": "24 KB", "updated": "May 2026" },
-  "finance-review": { "id": "finance-review", "version": "1.0.0", "size": "23 KB", "updated": "May 2026" }
+  "finance-review": { "id": "finance-review", "version": "1.0.0", "size": "23 KB", "updated": "May 2026" },
+  "web-research": { "id": "web-research", "version": "0.5.0", "size": "10 KB", "updated": "May 2026" },
+  "social-media-writer": { "id": "social-media-writer", "version": "0.5.0", "size": "14 KB", "updated": "May 2026" },
+  "youtube-scripts": { "id": "youtube-scripts", "version": "0.5.0", "size": "11 KB", "updated": "May 2026" },
+  "content-repurposing": { "id": "content-repurposing", "version": "0.5.0", "size": "11 KB", "updated": "May 2026" }
 }
