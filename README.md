@@ -6,7 +6,7 @@ This is a public repository for accessing skills from **Foundry — Give your AI
 
 <br>
 
-_Add website link here_
+foundrylabs.store
 
 ### What is Foundry?
 
